@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --loadFont: rgb(18, 162, 230);
+  --loadfontWeight: bold;
+  --headResultColor: black;
+  --headResultSize: 22px;
+  --headResultFontW: bold;
+  --imgRad: 15px;
+  --imgBorder: 2px solid rgb(18, 162, 230);
+  --maxHeadResult: 300px;
+  --fontFamily: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --desColor: rgb(221, 82, 82);
+  --divIMgPad: 7px;
+  --bgColorBtn :transparent;
+  --borderColorBtn: rgb(18, 162, 230);
+  --borderInputColor: rgb(236, 240, 241);
+  --inputBorderRound: 7px;
+  --textPstn:center;
+}
+.loadMsg {
+  color: var(--loadFont);
+  font-weight: var(--loadfontWeight);
+}
+.headResult {
+  color: var(--headResultColor);
+  font-size: var(--headResultSize);
+  font-weight: var(--headResultFontW);
+  padding-top: 10px;
+  max-width: var(--maxHeadResult);
+  text-align: var(--textPstn);
+}
+.inputSr {
+  padding-top: 10px;
+}
+.headTitle {
+  color: var(--headResultColor);
+  font-size: var(--headResultSize);
+  font-weight: var(--headResultFontW);
+  padding-top: 10px;
+}
+.imgSrch {
+  border: var(--imgBorder);
+  border-radius: var(--imgRad);
+}
+Body {
+  display: flex;
+  justify-content: center;
+  font-family: var(--fontFamily);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.divImg {
+  padding-top: var(--divIMgPad);
+}
+
+#extractWIK {
+  max-width: 300px;
+  text-align: justify;
+}
+#descWIK {
+  max-width: 300px;
+  color: var(--desColor);
+  font-style: italic;
+  text-align: var(--textPstn);
+}
+
+#txtSearch{
+  background-color: var(--bgColorBtn);
+  border-color: var(--borderInputColor);
+  border-radius: var(--inputBorderRound);
+}
+
+.subBtn{
+  background-color: var(--bgColorBtn);
+  border-color: var(--borderColorBtn);
+  border-radius: var(--inputBorderRound);
+}
+
+
