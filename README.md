@@ -36,7 +36,8 @@ If there is no any match for the text you search then you got the follow MSG:
 - [Giphy's API](https://developers.giphy.com/).
 ---
 > writing and formatting on GitHub: 
-> - [Basic writing and formatting on GitHub (like README.md)](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github).
+> - [Basic writing and formatting on GitHub (like README.md) Link1](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
+> - [Basic writing and formatting on GitHub (like README.md) Link2](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 > - [Using Emojis on GitHub](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
 
